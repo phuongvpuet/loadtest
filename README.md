@@ -1,4 +1,4 @@
-Install HomeBrew 
+Install HomeBrew (Kiểm tra có rồi thì bỏ qua bước này)
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
@@ -19,9 +19,9 @@ sh runRoom.sh
 ```
 Các biến mối trường (chỉnh sửa trong file runRoom.sh): \
 NUMBER_CLIENT: số lượng client giả lập để loadtest \
-ENABLE_AUDIO: bật/tắt audio \
+ENABLE_AUDIO: bật/tắt audio 
 
-Các lỗi thường gặp: \
+Các lỗi thường gặp: 
 
 Operation not permitted: (Thử lần lượt các cách) \
 Cách 1:
